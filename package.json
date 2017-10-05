@@ -1,0 +1,20 @@
+{
+  "name": "watsonwoodwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.easing.1.3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomhaycockwest/WatsonWoodwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomhaycockwest/WatsonWoodwork/issues"
+  },
+  "homepage": "https://github.com/tomhaycockwest/WatsonWoodwork#readme"
+}
