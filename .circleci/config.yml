@@ -10,7 +10,4 @@ jobs:
       - deploy:
           name: Deploy to S3 if tests pass and branch is Master
           command: |
-            export COMMIT_MESSAGE=$(git log --format=%B -n 1 $CIRCLE_SHA1)
-            if [ "${COMMIT_MESSAGE}" == /v[0-9]+\(\.[0-9]+\)*/ ]; then 
-              aws s3 sync ~/circleci s3://watsonwoodwork.co.uk  --region eu-west-2 --delete
-            fi
+            aws s3 sync ~/circleci s3://watsonwoodwork.co.uk  --region eu-west-2 --delete
