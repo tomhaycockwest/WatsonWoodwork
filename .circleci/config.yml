@@ -10,4 +10,4 @@ jobs:
       - deploy:
           name: Deploy to S3 if tests pass and branch is Master
           command: |
-            aws s3 sync ~/circleci s3://watsonwoodwork.co.uk  --region eu-west-2 --delete
+            aws s3 sync ~/circleci s3://www.watsonwoodwork.co.uk  --region eu-west-2 --delete
